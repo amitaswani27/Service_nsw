@@ -6,8 +6,8 @@ import core.Core;
 import web_pages.Service_nsw;
 
 /**
- * LoginSuccessfully Class will have all the test cases which is used to perform
- * all the expected steps, on Login, Blog Draft and Blog Published page.
+ * Search_Locate class will execute two test cases: Search and Locate.
+ * All the expected steps while searching and locating will be executed.
  * 
  * @author Amit Aswani
  * 

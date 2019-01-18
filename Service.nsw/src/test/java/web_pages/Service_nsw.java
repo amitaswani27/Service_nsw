@@ -12,7 +12,8 @@ import org.testng.Assert;
 import utilities.CommonDriver;
 
 /**
- * LoginPage class refers to the Login page of PhpTravel web site
+ * Searvice_nsw class refers to the Home page of Service.nsw.gov web site
+ * All the required web elements of the page are stored here.
  * 
  */
 
@@ -33,7 +34,6 @@ public class Service_nsw {
 	@FindBy(linkText="Apply for a number plate")
 	WebElement Apply_number_plate;
 	
-	
 	@FindBy(xpath="//a[contains(text(),'Locate us')]")
 	WebElement Locate_us;
 	
@@ -42,10 +42,16 @@ public class Service_nsw {
 	
 	@FindBy(xpath="//button[@type='submit']")
 	WebElement Searchbutton1;
+	
+	
+	/**
+	 * Search_Number_Plate class will search an item on Service.nsw.gov web site
+	 * Locate_us class will take us to locate us page on Service.nsw.gov web site
+	 * 
+	 */
 
 	public void Search_Number_Plate()
 	{
-		
 		String SearchItem = CommonDriver.getProperties("Search_item");
 
         String SearchResultsPageTitle = "";

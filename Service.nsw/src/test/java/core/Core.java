@@ -34,6 +34,11 @@ public class Core {
 		initBrowser();
 	}
 	
+	/**
+	 * initBrowser browser method will maximize the window and put implicit wait 
+	 * 
+	 */
+	
 	public void initBrowser()
 	{
 		driver.manage().window().maximize();
