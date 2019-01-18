@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5296" started-at="2019-01-18T01:05:50Z" finished-at="2019-01-18T01:05:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5296" started-at="2019-01-18T01:05:50Z" finished-at="2019-01-18T01:05:56Z">
+      <class name="test_cases.Search_Locate">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:test_cases.Search_Locate@3e6fa38a]" name="openbrowser" is-config="true" duration-ms="13338" started-at="2019-01-18T12:05:37Z" finished-at="2019-01-18T12:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search()[pri:0, instance:test_cases.Search_Locate@3e6fa38a]" name="Search" duration-ms="2304" started-at="2019-01-18T12:05:50Z" finished-at="2019-01-18T12:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="Locate_us()[pri:1, instance:test_cases.Search_Locate@3e6fa38a]" name="Locate_us" duration-ms="2946" started-at="2019-01-18T12:05:53Z" finished-at="2019-01-18T12:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Locate_us -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:test_cases.Search_Locate@3e6fa38a]" name="closebrowser" is-config="true" duration-ms="6518" started-at="2019-01-18T12:05:56Z" finished-at="2019-01-18T12:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test_cases.Search_Locate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
